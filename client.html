@@ -6,18 +6,48 @@
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<button type="button">Click Me!</button>
+<h1>This is the front end of ImageServer Project.</h1>
+<button type="button" id="getImageUrls">Get image urls</button>
+<button type="button" id="nextImage">next picture</button>
+<button type="button" id="lastImage">last picture</button>
+
+
 <img src="" id="image"/>
 <div></div>
 <script type="text/javascript">
+    var image_urls = [];
+    var cur_image = 0;
+    var image_server = "http://10.202.10.238:8081/images";
+
 	$(document).ready(function(){
-	  $("button").click(function(){
-	    $.get("http://10.202.10.238:8081/images",function(data,status){
-	      alert("数据：" + data + "\n状态：" + status);
+	  $("button#getImageUrls").click(function(){
+	    $.get(image_server, function(data,status){
+	      // alert("数据：" + data + "\n状态：" + status);
+	      var jsonData = JSON.parse(data);
+          for (var i = jsonData.length - 1; i >= 0; i--) {
+            console.log(jsonData[i]);          	
+            image_urls.push(jsonData[i]);
+          }
+          document.getElementById('image').src = "./images/" + image_urls[cur_image];
 	    });
 	  });
+
+	  $("button#nextImage").click(function(){
+	  	cur_image = cur_image + 1;
+	  	if(cur_image >= image_urls.length){
+	  		cur_image = 0;
+	  	}
+	  	document.getElementById('image').src = "./images/" + image_urls[cur_image];
+	  })
+
+	  $("button#lastImage").click(function(){
+	  	cur_image = cur_image - 1;
+	  	if(cur_image < 0){
+	  		cur_image = image_urls.length - 1;
+	  	}
+	  	document.getElementById('image').src = "./images/" + image_urls[cur_image];
+	  })
+
 	});
     // http.get(url, function(res){
     //     var body = '';
