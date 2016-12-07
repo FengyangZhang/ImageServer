@@ -11,21 +11,21 @@ app.use(function(req, res, next) {
 });
 
 app.get('/images', function (req, res) {
-  fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
-    fs.readdir(testFolder, (err, files) => {
-      console.log("front end is getting images' names.");
-      files.forEach(file => {
-      res.end(JSON.stringify(files));
+    fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
+        fs.readdir(testFolder, (err, files) => {
+            console.log("front end is getting images' names.");
+            files.forEach(file => {
+                res.end(JSON.stringify(files));
+            });
+        })
     });
-    })
-   });
 })
 
 var server = app.listen(8081, function () {
 
-  var host = server.address().address
-  var port = server.address().port
+    var host = server.address().address
+    var port = server.address().port
 
-  console.log("Example app listening at http://%s:%s", host, port)
+    console.log("Example app listening at http://%s:%s", host, port)
 
 })
