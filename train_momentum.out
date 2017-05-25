@@ -1,0 +1,1971 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+[INFO] using training mode
+[INFO] loading features...
+[INFO] loading labels...
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:910] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.81GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+[INFO] initializing model from scratch...
+WARNING:tensorflow:From chineseNet.py:326: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+[INFO] model Initialized.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 3.06GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 3.61GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 3.61GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 3.06GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+[INFO] Minibatch loss at epoch 0 iteration 0: 8.612815
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 100: 8.545788
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 200: 8.422743
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 300: 8.349193
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 400: 8.306541
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 500: 8.278646
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 600: 8.268982
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 700: 8.269825
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 800: 8.259268
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 900: 8.254655
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1000: 8.247509
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1100: 8.242929
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1200: 8.242160
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1300: 8.228369
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1400: 8.244497
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1500: 8.236104
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1600: 8.237625
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1700: 8.235662
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1800: 8.229004
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 0: 8.234539
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 100: 8.225304
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 200: 8.234068
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 300: 8.230505
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 400: 8.219832
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 500: 8.224474
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 600: 8.222605
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 700: 8.206971
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 800: 8.201884
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 900: 8.206959
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1000: 8.196744
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1100: 8.208041
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1200: 8.188684
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1300: 8.192635
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1400: 8.173312
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1500: 8.171861
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1600: 8.162059
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1700: 8.140139
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1800: 8.133039
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 0: 8.120095
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 100: 8.113991
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 200: 8.128383
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 300: 8.090711
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 400: 8.099146
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 500: 8.056459
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 600: 8.045037
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 700: 8.042479
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 800: 8.021641
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 900: 8.011012
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1000: 8.012199
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1100: 7.953027
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1200: 7.895854
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1300: 7.903602
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1400: 7.863963
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1500: 7.840716
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1600: 7.858097
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1700: 7.797656
+[INFO] Minibatch accuracy: 0.6%
+[INFO] Test accuracy: 0.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1800: 7.725495
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 0: 7.783660
+[INFO] Minibatch accuracy: 0.0%
+[INFO] Test accuracy: 0.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 100: 7.717907
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 200: 7.724707
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 300: 7.687798
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 400: 7.663595
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 500: 7.610607
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 600: 7.591264
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 700: 7.500167
+[INFO] Minibatch accuracy: 0.5%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 800: 7.567075
+[INFO] Minibatch accuracy: 0.3%
+[INFO] Test accuracy: 0.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 900: 7.434881
+[INFO] Minibatch accuracy: 0.1%
+[INFO] Test accuracy: 0.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1000: 7.512506
+[INFO] Minibatch accuracy: 0.6%
+[INFO] Test accuracy: 0.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1100: 7.436162
+[INFO] Minibatch accuracy: 0.6%
+[INFO] Test accuracy: 0.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1200: 7.389312
+[INFO] Minibatch accuracy: 0.2%
+[INFO] Test accuracy: 0.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1300: 7.326147
+[INFO] Minibatch accuracy: 0.6%
+[INFO] Test accuracy: 0.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1400: 7.269497
+[INFO] Minibatch accuracy: 1.0%
+[INFO] Test accuracy: 0.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1500: 7.218648
+[INFO] Minibatch accuracy: 1.1%
+[INFO] Test accuracy: 1.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1600: 7.220914
+[INFO] Minibatch accuracy: 0.4%
+[INFO] Test accuracy: 0.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1700: 7.115291
+[INFO] Minibatch accuracy: 0.7%
+[INFO] Test accuracy: 1.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1800: 7.159333
+[INFO] Minibatch accuracy: 0.5%
+[INFO] Test accuracy: 0.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 0: 7.065524
+[INFO] Minibatch accuracy: 0.9%
+[INFO] Test accuracy: 1.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 100: 7.050027
+[INFO] Minibatch accuracy: 0.6%
+[INFO] Test accuracy: 1.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 200: 7.000053
+[INFO] Minibatch accuracy: 0.9%
+[INFO] Test accuracy: 1.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 300: 6.949945
+[INFO] Minibatch accuracy: 1.6%
+[INFO] Test accuracy: 1.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 400: 6.862639
+[INFO] Minibatch accuracy: 2.0%
+[INFO] Test accuracy: 0.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 500: 6.780740
+[INFO] Minibatch accuracy: 1.5%
+[INFO] Test accuracy: 1.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 600: 6.764623
+[INFO] Minibatch accuracy: 1.8%
+[INFO] Test accuracy: 1.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 700: 6.757635
+[INFO] Minibatch accuracy: 1.5%
+[INFO] Test accuracy: 1.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 800: 6.676374
+[INFO] Minibatch accuracy: 1.7%
+[INFO] Test accuracy: 1.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 900: 6.603218
+[INFO] Minibatch accuracy: 1.7%
+[INFO] Test accuracy: 1.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1000: 6.515174
+[INFO] Minibatch accuracy: 1.9%
+[INFO] Test accuracy: 1.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1100: 6.493873
+[INFO] Minibatch accuracy: 2.0%
+[INFO] Test accuracy: 1.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1200: 6.409490
+[INFO] Minibatch accuracy: 2.6%
+[INFO] Test accuracy: 1.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1300: 6.333246
+[INFO] Minibatch accuracy: 3.0%
+[INFO] Test accuracy: 2.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1400: 6.256050
+[INFO] Minibatch accuracy: 2.2%
+[INFO] Test accuracy: 3.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1500: 6.151321
+[INFO] Minibatch accuracy: 4.0%
+[INFO] Test accuracy: 3.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1600: 6.145169
+[INFO] Minibatch accuracy: 2.8%
+[INFO] Test accuracy: 3.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1700: 6.047316
+[INFO] Minibatch accuracy: 3.6%
+[INFO] Test accuracy: 2.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1800: 5.997755
+[INFO] Minibatch accuracy: 3.1%
+[INFO] Test accuracy: 3.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 0: 5.968001
+[INFO] Minibatch accuracy: 3.8%
+[INFO] Test accuracy: 2.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 100: 5.854908
+[INFO] Minibatch accuracy: 4.9%
+[INFO] Test accuracy: 3.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 200: 5.874871
+[INFO] Minibatch accuracy: 4.1%
+[INFO] Test accuracy: 3.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 300: 5.774848
+[INFO] Minibatch accuracy: 3.7%
+[INFO] Test accuracy: 4.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 400: 5.629965
+[INFO] Minibatch accuracy: 5.4%
+[INFO] Test accuracy: 4.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 500: 5.571824
+[INFO] Minibatch accuracy: 5.0%
+[INFO] Test accuracy: 5.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 600: 5.447773
+[INFO] Minibatch accuracy: 7.3%
+[INFO] Test accuracy: 5.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 700: 5.407099
+[INFO] Minibatch accuracy: 6.9%
+[INFO] Test accuracy: 6.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 800: 5.375457
+[INFO] Minibatch accuracy: 6.8%
+[INFO] Test accuracy: 5.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 900: 5.223150
+[INFO] Minibatch accuracy: 7.2%
+[INFO] Test accuracy: 6.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1000: 5.166126
+[INFO] Minibatch accuracy: 8.3%
+[INFO] Test accuracy: 6.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1100: 5.058825
+[INFO] Minibatch accuracy: 8.2%
+[INFO] Test accuracy: 7.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1200: 5.034273
+[INFO] Minibatch accuracy: 9.4%
+[INFO] Test accuracy: 7.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1300: 4.919512
+[INFO] Minibatch accuracy: 9.6%
+[INFO] Test accuracy: 9.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1400: 4.801980
+[INFO] Minibatch accuracy: 10.5%
+[INFO] Test accuracy: 8.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1500: 4.782464
+[INFO] Minibatch accuracy: 12.1%
+[INFO] Test accuracy: 11.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1600: 4.679545
+[INFO] Minibatch accuracy: 11.6%
+[INFO] Test accuracy: 10.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1700: 4.575324
+[INFO] Minibatch accuracy: 13.6%
+[INFO] Test accuracy: 11.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1800: 4.488225
+[INFO] Minibatch accuracy: 15.4%
+[INFO] Test accuracy: 11.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 0: 4.497312
+[INFO] Minibatch accuracy: 13.7%
+[INFO] Test accuracy: 12.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 100: 4.368192
+[INFO] Minibatch accuracy: 17.6%
+[INFO] Test accuracy: 11.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 200: 4.319560
+[INFO] Minibatch accuracy: 18.2%
+[INFO] Test accuracy: 12.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 300: 4.176986
+[INFO] Minibatch accuracy: 18.4%
+[INFO] Test accuracy: 14.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 400: 4.065906
+[INFO] Minibatch accuracy: 21.4%
+[INFO] Test accuracy: 14.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 500: 4.075774
+[INFO] Minibatch accuracy: 18.8%
+[INFO] Test accuracy: 15.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 600: 3.991488
+[INFO] Minibatch accuracy: 20.0%
+[INFO] Test accuracy: 17.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 700: 3.879673
+[INFO] Minibatch accuracy: 22.3%
+[INFO] Test accuracy: 17.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 800: 3.773760
+[INFO] Minibatch accuracy: 21.5%
+[INFO] Test accuracy: 17.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 900: 3.818010
+[INFO] Minibatch accuracy: 23.2%
+[INFO] Test accuracy: 18.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1000: 3.573113
+[INFO] Minibatch accuracy: 28.4%
+[INFO] Test accuracy: 21.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1100: 3.540057
+[INFO] Minibatch accuracy: 28.9%
+[INFO] Test accuracy: 23.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1200: 3.392138
+[INFO] Minibatch accuracy: 29.2%
+[INFO] Test accuracy: 22.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1300: 3.417363
+[INFO] Minibatch accuracy: 29.1%
+[INFO] Test accuracy: 22.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1400: 3.277208
+[INFO] Minibatch accuracy: 30.4%
+[INFO] Test accuracy: 26.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1500: 3.201348
+[INFO] Minibatch accuracy: 34.3%
+[INFO] Test accuracy: 23.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1600: 3.173783
+[INFO] Minibatch accuracy: 31.8%
+[INFO] Test accuracy: 26.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1700: 3.052016
+[INFO] Minibatch accuracy: 36.1%
+[INFO] Test accuracy: 27.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1800: 2.978651
+[INFO] Minibatch accuracy: 36.5%
+[INFO] Test accuracy: 26.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 0: 2.917637
+[INFO] Minibatch accuracy: 39.5%
+[INFO] Test accuracy: 28.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 100: 2.845355
+[INFO] Minibatch accuracy: 38.4%
+[INFO] Test accuracy: 32.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 200: 2.703273
+[INFO] Minibatch accuracy: 44.8%
+[INFO] Test accuracy: 31.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 300: 2.702542
+[INFO] Minibatch accuracy: 42.5%
+[INFO] Test accuracy: 32.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 400: 2.736651
+[INFO] Minibatch accuracy: 40.9%
+[INFO] Test accuracy: 35.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 500: 2.599560
+[INFO] Minibatch accuracy: 42.8%
+[INFO] Test accuracy: 32.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 600: 2.530610
+[INFO] Minibatch accuracy: 46.8%
+[INFO] Test accuracy: 37.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 700: 2.524395
+[INFO] Minibatch accuracy: 44.6%
+[INFO] Test accuracy: 37.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 800: 2.393574
+[INFO] Minibatch accuracy: 49.0%
+[INFO] Test accuracy: 40.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 900: 2.359161
+[INFO] Minibatch accuracy: 51.3%
+[INFO] Test accuracy: 40.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1000: 2.216435
+[INFO] Minibatch accuracy: 54.2%
+[INFO] Test accuracy: 39.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1100: 2.233568
+[INFO] Minibatch accuracy: 51.5%
+[INFO] Test accuracy: 43.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1200: 2.158529
+[INFO] Minibatch accuracy: 53.9%
+[INFO] Test accuracy: 42.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1300: 2.119025
+[INFO] Minibatch accuracy: 53.4%
+[INFO] Test accuracy: 44.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1400: 2.043744
+[INFO] Minibatch accuracy: 56.5%
+[INFO] Test accuracy: 46.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1500: 2.039411
+[INFO] Minibatch accuracy: 54.4%
+[INFO] Test accuracy: 44.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1600: 1.920802
+[INFO] Minibatch accuracy: 59.3%
+[INFO] Test accuracy: 47.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1700: 1.929180
+[INFO] Minibatch accuracy: 59.4%
+[INFO] Test accuracy: 48.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1800: 1.817888
+[INFO] Minibatch accuracy: 63.1%
+[INFO] Test accuracy: 49.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 0: 1.792407
+[INFO] Minibatch accuracy: 62.8%
+[INFO] Test accuracy: 47.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 100: 1.706799
+[INFO] Minibatch accuracy: 63.3%
+[INFO] Test accuracy: 48.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 200: 1.728405
+[INFO] Minibatch accuracy: 64.4%
+[INFO] Test accuracy: 52.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 300: 1.646451
+[INFO] Minibatch accuracy: 64.9%
+[INFO] Test accuracy: 52.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 400: 1.589162
+[INFO] Minibatch accuracy: 65.8%
+[INFO] Test accuracy: 52.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 500: 1.604550
+[INFO] Minibatch accuracy: 64.7%
+[INFO] Test accuracy: 55.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 600: 1.579268
+[INFO] Minibatch accuracy: 63.5%
+[INFO] Test accuracy: 55.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 700: 1.472151
+[INFO] Minibatch accuracy: 68.9%
+[INFO] Test accuracy: 56.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 800: 1.485072
+[INFO] Minibatch accuracy: 66.4%
+[INFO] Test accuracy: 58.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 900: 1.434031
+[INFO] Minibatch accuracy: 67.8%
+[INFO] Test accuracy: 57.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1000: 1.374235
+[INFO] Minibatch accuracy: 70.7%
+[INFO] Test accuracy: 60.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1100: 1.361497
+[INFO] Minibatch accuracy: 68.0%
+[INFO] Test accuracy: 59.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1200: 1.354837
+[INFO] Minibatch accuracy: 70.8%
+[INFO] Test accuracy: 60.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1300: 1.255304
+[INFO] Minibatch accuracy: 74.3%
+[INFO] Test accuracy: 61.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1400: 1.308906
+[INFO] Minibatch accuracy: 68.5%
+[INFO] Test accuracy: 60.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1500: 1.228479
+[INFO] Minibatch accuracy: 75.0%
+[INFO] Test accuracy: 64.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1600: 1.161879
+[INFO] Minibatch accuracy: 74.8%
+[INFO] Test accuracy: 63.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1700: 1.164117
+[INFO] Minibatch accuracy: 73.2%
+[INFO] Test accuracy: 64.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1800: 1.130843
+[INFO] Minibatch accuracy: 74.0%
+[INFO] Test accuracy: 66.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 0: 1.135173
+[INFO] Minibatch accuracy: 75.1%
+[INFO] Test accuracy: 66.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 100: 1.056679
+[INFO] Minibatch accuracy: 76.2%
+[INFO] Test accuracy: 66.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 200: 1.059961
+[INFO] Minibatch accuracy: 76.1%
+[INFO] Test accuracy: 66.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 300: 1.042498
+[INFO] Minibatch accuracy: 78.2%
+[INFO] Test accuracy: 66.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 400: 0.991463
+[INFO] Minibatch accuracy: 78.6%
+[INFO] Test accuracy: 68.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 500: 0.949006
+[INFO] Minibatch accuracy: 78.7%
+[INFO] Test accuracy: 70.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 600: 0.944548
+[INFO] Minibatch accuracy: 79.4%
+[INFO] Test accuracy: 67.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 700: 0.932445
+[INFO] Minibatch accuracy: 78.3%
+[INFO] Test accuracy: 69.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 800: 0.938576
+[INFO] Minibatch accuracy: 78.3%
+[INFO] Test accuracy: 72.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 900: 0.877315
+[INFO] Minibatch accuracy: 81.1%
+[INFO] Test accuracy: 72.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1000: 0.965587
+[INFO] Minibatch accuracy: 77.8%
+[INFO] Test accuracy: 70.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1100: 0.899217
+[INFO] Minibatch accuracy: 79.9%
+[INFO] Test accuracy: 71.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1200: 0.819003
+[INFO] Minibatch accuracy: 79.9%
+[INFO] Test accuracy: 74.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1300: 0.813949
+[INFO] Minibatch accuracy: 81.1%
+[INFO] Test accuracy: 74.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1400: 0.780517
+[INFO] Minibatch accuracy: 83.4%
+[INFO] Test accuracy: 73.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1500: 0.777165
+[INFO] Minibatch accuracy: 83.5%
+[INFO] Test accuracy: 72.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1600: 0.816517
+[INFO] Minibatch accuracy: 81.0%
+[INFO] Test accuracy: 73.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1700: 0.794232
+[INFO] Minibatch accuracy: 81.2%
+[INFO] Test accuracy: 72.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1800: 0.757287
+[INFO] Minibatch accuracy: 82.3%
+[INFO] Test accuracy: 75.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] total time used: 73022.703419
+Closing remaining open files:./trainData.hdf5...done./trainLabel.hdf5...done
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+usage: chineseNet.py [-h] [-s SAVE_MODEL] [-l LOAD_MODEL] [-w MODEL_PATH]
+                     [-t TEST_MODE] [-i IMAGE_PATH]
+chineseNet.py: error: argument -l/--load_model: invalid int value: 'l'
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+[INFO] using training mode
+[INFO] loading features...
+[INFO] loading labels...
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:910] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.81GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+[INFO] restoring model from file...
+[INFO] model restored.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 3.06GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 3.61GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 3.61GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 3.06GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+[INFO] Minibatch loss at epoch 0 iteration 0: 0.760194
+[INFO] Minibatch accuracy: 82.5%
+[INFO] Test accuracy: 74.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 100: 0.750016
+[INFO] Minibatch accuracy: 83.5%
+[INFO] Test accuracy: 75.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 200: 0.715598
+[INFO] Minibatch accuracy: 84.4%
+[INFO] Test accuracy: 72.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 300: 0.698910
+[INFO] Minibatch accuracy: 84.1%
+[INFO] Test accuracy: 73.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 400: 0.761861
+[INFO] Minibatch accuracy: 81.7%
+[INFO] Test accuracy: 76.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 500: 0.695694
+[INFO] Minibatch accuracy: 84.5%
+[INFO] Test accuracy: 73.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 600: 0.733232
+[INFO] Minibatch accuracy: 84.0%
+[INFO] Test accuracy: 74.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 700: 0.737251
+[INFO] Minibatch accuracy: 82.9%
+[INFO] Test accuracy: 74.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 800: 0.738953
+[INFO] Minibatch accuracy: 81.0%
+[INFO] Test accuracy: 75.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 900: 0.758217
+[INFO] Minibatch accuracy: 80.8%
+[INFO] Test accuracy: 73.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1000: 0.707417
+[INFO] Minibatch accuracy: 83.9%
+[INFO] Test accuracy: 74.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1100: 0.689910
+[INFO] Minibatch accuracy: 84.8%
+[INFO] Test accuracy: 73.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1200: 0.676038
+[INFO] Minibatch accuracy: 85.0%
+[INFO] Test accuracy: 73.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1300: 0.662336
+[INFO] Minibatch accuracy: 85.2%
+[INFO] Test accuracy: 74.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1400: 0.725481
+[INFO] Minibatch accuracy: 85.3%
+[INFO] Test accuracy: 77.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1500: 0.710422
+[INFO] Minibatch accuracy: 83.8%
+[INFO] Test accuracy: 76.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1600: 0.725177
+[INFO] Minibatch accuracy: 82.1%
+[INFO] Test accuracy: 75.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1700: 0.712189
+[INFO] Minibatch accuracy: 83.0%
+[INFO] Test accuracy: 76.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 0 iteration 1800: 0.712695
+[INFO] Minibatch accuracy: 83.4%
+[INFO] Test accuracy: 75.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 0: 0.715775
+[INFO] Minibatch accuracy: 83.8%
+[INFO] Test accuracy: 75.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 100: 0.715864
+[INFO] Minibatch accuracy: 83.1%
+[INFO] Test accuracy: 74.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 200: 0.693978
+[INFO] Minibatch accuracy: 85.1%
+[INFO] Test accuracy: 75.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 300: 0.723088
+[INFO] Minibatch accuracy: 83.4%
+[INFO] Test accuracy: 75.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 400: 0.714453
+[INFO] Minibatch accuracy: 82.3%
+[INFO] Test accuracy: 75.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 500: 0.738698
+[INFO] Minibatch accuracy: 81.6%
+[INFO] Test accuracy: 76.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 600: 0.700701
+[INFO] Minibatch accuracy: 84.1%
+[INFO] Test accuracy: 74.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 700: 0.704420
+[INFO] Minibatch accuracy: 82.7%
+[INFO] Test accuracy: 74.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 800: 0.652125
+[INFO] Minibatch accuracy: 87.4%
+[INFO] Test accuracy: 76.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 900: 0.679496
+[INFO] Minibatch accuracy: 83.7%
+[INFO] Test accuracy: 74.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1000: 0.711297
+[INFO] Minibatch accuracy: 83.2%
+[INFO] Test accuracy: 76.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1100: 0.699561
+[INFO] Minibatch accuracy: 84.2%
+[INFO] Test accuracy: 78.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1200: 0.688116
+[INFO] Minibatch accuracy: 83.6%
+[INFO] Test accuracy: 74.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1300: 0.662627
+[INFO] Minibatch accuracy: 85.4%
+[INFO] Test accuracy: 74.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1400: 0.666334
+[INFO] Minibatch accuracy: 85.9%
+[INFO] Test accuracy: 74.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1500: 0.687972
+[INFO] Minibatch accuracy: 83.2%
+[INFO] Test accuracy: 75.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1600: 0.689500
+[INFO] Minibatch accuracy: 83.1%
+[INFO] Test accuracy: 73.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1700: 0.680329
+[INFO] Minibatch accuracy: 83.3%
+[INFO] Test accuracy: 77.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 1 iteration 1800: 0.673615
+[INFO] Minibatch accuracy: 83.6%
+[INFO] Test accuracy: 75.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 0: 0.696002
+[INFO] Minibatch accuracy: 83.3%
+[INFO] Test accuracy: 75.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 100: 0.642261
+[INFO] Minibatch accuracy: 85.1%
+[INFO] Test accuracy: 76.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 200: 0.640868
+[INFO] Minibatch accuracy: 85.7%
+[INFO] Test accuracy: 76.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 300: 0.656564
+[INFO] Minibatch accuracy: 85.5%
+[INFO] Test accuracy: 74.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 400: 0.696026
+[INFO] Minibatch accuracy: 84.7%
+[INFO] Test accuracy: 76.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 500: 0.659162
+[INFO] Minibatch accuracy: 84.6%
+[INFO] Test accuracy: 77.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 600: 0.645002
+[INFO] Minibatch accuracy: 85.4%
+[INFO] Test accuracy: 74.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 700: 0.620461
+[INFO] Minibatch accuracy: 86.4%
+[INFO] Test accuracy: 77.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 800: 0.659187
+[INFO] Minibatch accuracy: 86.3%
+[INFO] Test accuracy: 75.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 900: 0.684372
+[INFO] Minibatch accuracy: 83.7%
+[INFO] Test accuracy: 75.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1000: 0.663492
+[INFO] Minibatch accuracy: 84.1%
+[INFO] Test accuracy: 75.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1100: 0.635332
+[INFO] Minibatch accuracy: 86.3%
+[INFO] Test accuracy: 75.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1200: 0.660523
+[INFO] Minibatch accuracy: 84.7%
+[INFO] Test accuracy: 77.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1300: 0.666640
+[INFO] Minibatch accuracy: 84.4%
+[INFO] Test accuracy: 77.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1400: 0.677736
+[INFO] Minibatch accuracy: 83.9%
+[INFO] Test accuracy: 75.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1500: 0.667927
+[INFO] Minibatch accuracy: 84.4%
+[INFO] Test accuracy: 74.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1600: 0.630858
+[INFO] Minibatch accuracy: 85.6%
+[INFO] Test accuracy: 76.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1700: 0.657983
+[INFO] Minibatch accuracy: 84.9%
+[INFO] Test accuracy: 79.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 2 iteration 1800: 0.646207
+[INFO] Minibatch accuracy: 85.2%
+[INFO] Test accuracy: 77.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 0: 0.635051
+[INFO] Minibatch accuracy: 85.9%
+[INFO] Test accuracy: 77.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 100: 0.688683
+[INFO] Minibatch accuracy: 83.4%
+[INFO] Test accuracy: 76.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 200: 0.676514
+[INFO] Minibatch accuracy: 82.5%
+[INFO] Test accuracy: 76.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 300: 0.699825
+[INFO] Minibatch accuracy: 84.3%
+[INFO] Test accuracy: 77.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 400: 0.594784
+[INFO] Minibatch accuracy: 85.9%
+[INFO] Test accuracy: 75.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 500: 0.593228
+[INFO] Minibatch accuracy: 86.6%
+[INFO] Test accuracy: 75.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 600: 0.627681
+[INFO] Minibatch accuracy: 86.7%
+[INFO] Test accuracy: 77.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 700: 0.640868
+[INFO] Minibatch accuracy: 85.0%
+[INFO] Test accuracy: 77.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 800: 0.698063
+[INFO] Minibatch accuracy: 84.8%
+[INFO] Test accuracy: 75.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 900: 0.659681
+[INFO] Minibatch accuracy: 85.1%
+[INFO] Test accuracy: 77.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1000: 0.639468
+[INFO] Minibatch accuracy: 83.7%
+[INFO] Test accuracy: 76.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1100: 0.628553
+[INFO] Minibatch accuracy: 85.4%
+[INFO] Test accuracy: 76.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1200: 0.608710
+[INFO] Minibatch accuracy: 85.7%
+[INFO] Test accuracy: 78.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1300: 0.629060
+[INFO] Minibatch accuracy: 85.8%
+[INFO] Test accuracy: 76.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1400: 0.652261
+[INFO] Minibatch accuracy: 83.7%
+[INFO] Test accuracy: 77.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1500: 0.628988
+[INFO] Minibatch accuracy: 86.3%
+[INFO] Test accuracy: 77.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1600: 0.663172
+[INFO] Minibatch accuracy: 83.9%
+[INFO] Test accuracy: 77.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1700: 0.608326
+[INFO] Minibatch accuracy: 86.1%
+[INFO] Test accuracy: 77.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 3 iteration 1800: 0.624116
+[INFO] Minibatch accuracy: 85.2%
+[INFO] Test accuracy: 79.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 0: 0.640596
+[INFO] Minibatch accuracy: 83.3%
+[INFO] Test accuracy: 78.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 100: 0.624343
+[INFO] Minibatch accuracy: 85.3%
+[INFO] Test accuracy: 78.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 200: 0.599968
+[INFO] Minibatch accuracy: 87.5%
+[INFO] Test accuracy: 76.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 300: 0.623834
+[INFO] Minibatch accuracy: 85.7%
+[INFO] Test accuracy: 76.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 400: 0.614941
+[INFO] Minibatch accuracy: 84.8%
+[INFO] Test accuracy: 78.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 500: 0.606341
+[INFO] Minibatch accuracy: 85.7%
+[INFO] Test accuracy: 75.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 600: 0.587883
+[INFO] Minibatch accuracy: 86.7%
+[INFO] Test accuracy: 77.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 700: 0.607668
+[INFO] Minibatch accuracy: 86.0%
+[INFO] Test accuracy: 78.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 800: 0.617901
+[INFO] Minibatch accuracy: 86.3%
+[INFO] Test accuracy: 78.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 900: 0.683540
+[INFO] Minibatch accuracy: 82.0%
+[INFO] Test accuracy: 77.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1000: 0.660093
+[INFO] Minibatch accuracy: 85.6%
+[INFO] Test accuracy: 76.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1100: 0.651020
+[INFO] Minibatch accuracy: 84.2%
+[INFO] Test accuracy: 77.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1200: 0.613734
+[INFO] Minibatch accuracy: 84.6%
+[INFO] Test accuracy: 75.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1300: 0.592253
+[INFO] Minibatch accuracy: 86.5%
+[INFO] Test accuracy: 76.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1400: 0.592192
+[INFO] Minibatch accuracy: 85.4%
+[INFO] Test accuracy: 78.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1500: 0.604750
+[INFO] Minibatch accuracy: 83.7%
+[INFO] Test accuracy: 77.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1600: 0.602152
+[INFO] Minibatch accuracy: 84.8%
+[INFO] Test accuracy: 78.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1700: 0.637350
+[INFO] Minibatch accuracy: 85.0%
+[INFO] Test accuracy: 79.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 4 iteration 1800: 0.608669
+[INFO] Minibatch accuracy: 86.2%
+[INFO] Test accuracy: 77.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 0: 0.641275
+[INFO] Minibatch accuracy: 86.1%
+[INFO] Test accuracy: 78.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 100: 0.633874
+[INFO] Minibatch accuracy: 85.3%
+[INFO] Test accuracy: 78.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 200: 0.624327
+[INFO] Minibatch accuracy: 84.8%
+[INFO] Test accuracy: 75.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 300: 0.633443
+[INFO] Minibatch accuracy: 85.6%
+[INFO] Test accuracy: 78.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 400: 0.593075
+[INFO] Minibatch accuracy: 86.0%
+[INFO] Test accuracy: 77.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 500: 0.640404
+[INFO] Minibatch accuracy: 84.7%
+[INFO] Test accuracy: 78.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 600: 0.579215
+[INFO] Minibatch accuracy: 86.5%
+[INFO] Test accuracy: 78.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 700: 0.597585
+[INFO] Minibatch accuracy: 86.8%
+[INFO] Test accuracy: 79.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 800: 0.586036
+[INFO] Minibatch accuracy: 86.1%
+[INFO] Test accuracy: 76.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 900: 0.605131
+[INFO] Minibatch accuracy: 84.5%
+[INFO] Test accuracy: 79.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1000: 0.630774
+[INFO] Minibatch accuracy: 84.0%
+[INFO] Test accuracy: 78.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1100: 0.589820
+[INFO] Minibatch accuracy: 85.2%
+[INFO] Test accuracy: 79.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1200: 0.570472
+[INFO] Minibatch accuracy: 86.8%
+[INFO] Test accuracy: 76.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1300: 0.617043
+[INFO] Minibatch accuracy: 83.7%
+[INFO] Test accuracy: 78.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1400: 0.609771
+[INFO] Minibatch accuracy: 85.9%
+[INFO] Test accuracy: 77.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1500: 0.619299
+[INFO] Minibatch accuracy: 85.4%
+[INFO] Test accuracy: 78.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1600: 0.585088
+[INFO] Minibatch accuracy: 86.5%
+[INFO] Test accuracy: 77.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1700: 0.568621
+[INFO] Minibatch accuracy: 86.8%
+[INFO] Test accuracy: 78.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 5 iteration 1800: 0.582210
+[INFO] Minibatch accuracy: 86.5%
+[INFO] Test accuracy: 76.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 0: 0.587364
+[INFO] Minibatch accuracy: 86.4%
+[INFO] Test accuracy: 77.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 100: 0.602184
+[INFO] Minibatch accuracy: 85.9%
+[INFO] Test accuracy: 78.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 200: 0.539537
+[INFO] Minibatch accuracy: 89.3%
+[INFO] Test accuracy: 79.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 300: 0.590878
+[INFO] Minibatch accuracy: 86.6%
+[INFO] Test accuracy: 80.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 400: 0.586218
+[INFO] Minibatch accuracy: 86.4%
+[INFO] Test accuracy: 76.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 500: 0.587070
+[INFO] Minibatch accuracy: 85.6%
+[INFO] Test accuracy: 78.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 600: 0.579453
+[INFO] Minibatch accuracy: 87.2%
+[INFO] Test accuracy: 80.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 700: 0.581598
+[INFO] Minibatch accuracy: 86.4%
+[INFO] Test accuracy: 77.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 800: 0.613156
+[INFO] Minibatch accuracy: 85.6%
+[INFO] Test accuracy: 77.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 900: 0.551472
+[INFO] Minibatch accuracy: 87.2%
+[INFO] Test accuracy: 76.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1000: 0.544748
+[INFO] Minibatch accuracy: 88.1%
+[INFO] Test accuracy: 77.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1100: 0.582755
+[INFO] Minibatch accuracy: 87.4%
+[INFO] Test accuracy: 78.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1200: 0.621585
+[INFO] Minibatch accuracy: 85.5%
+[INFO] Test accuracy: 79.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1300: 0.568581
+[INFO] Minibatch accuracy: 86.6%
+[INFO] Test accuracy: 78.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1400: 0.592120
+[INFO] Minibatch accuracy: 86.6%
+[INFO] Test accuracy: 78.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1500: 0.560770
+[INFO] Minibatch accuracy: 87.2%
+[INFO] Test accuracy: 80.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1600: 0.597905
+[INFO] Minibatch accuracy: 86.0%
+[INFO] Test accuracy: 78.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1700: 0.586533
+[INFO] Minibatch accuracy: 84.6%
+[INFO] Test accuracy: 78.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 6 iteration 1800: 0.558027
+[INFO] Minibatch accuracy: 88.4%
+[INFO] Test accuracy: 80.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 0: 0.568046
+[INFO] Minibatch accuracy: 87.1%
+[INFO] Test accuracy: 78.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 100: 0.591092
+[INFO] Minibatch accuracy: 85.3%
+[INFO] Test accuracy: 80.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 200: 0.555088
+[INFO] Minibatch accuracy: 87.0%
+[INFO] Test accuracy: 77.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 300: 0.529266
+[INFO] Minibatch accuracy: 87.4%
+[INFO] Test accuracy: 79.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 400: 0.561289
+[INFO] Minibatch accuracy: 86.8%
+[INFO] Test accuracy: 80.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 500: 0.569331
+[INFO] Minibatch accuracy: 88.1%
+[INFO] Test accuracy: 79.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 600: 0.545538
+[INFO] Minibatch accuracy: 86.8%
+[INFO] Test accuracy: 79.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 700: 0.554583
+[INFO] Minibatch accuracy: 87.0%
+[INFO] Test accuracy: 78.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 800: 0.570634
+[INFO] Minibatch accuracy: 86.0%
+[INFO] Test accuracy: 79.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 900: 0.543868
+[INFO] Minibatch accuracy: 88.1%
+[INFO] Test accuracy: 78.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1000: 0.555249
+[INFO] Minibatch accuracy: 86.0%
+[INFO] Test accuracy: 79.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1100: 0.610314
+[INFO] Minibatch accuracy: 83.9%
+[INFO] Test accuracy: 78.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1200: 0.604576
+[INFO] Minibatch accuracy: 86.2%
+[INFO] Test accuracy: 77.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1300: 0.540809
+[INFO] Minibatch accuracy: 86.5%
+[INFO] Test accuracy: 80.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1400: 0.553764
+[INFO] Minibatch accuracy: 86.2%
+[INFO] Test accuracy: 80.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1500: 0.563331
+[INFO] Minibatch accuracy: 86.6%
+[INFO] Test accuracy: 79.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1600: 0.553179
+[INFO] Minibatch accuracy: 87.1%
+[INFO] Test accuracy: 80.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1700: 0.559706
+[INFO] Minibatch accuracy: 86.3%
+[INFO] Test accuracy: 79.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 7 iteration 1800: 0.509938
+[INFO] Minibatch accuracy: 87.7%
+[INFO] Test accuracy: 79.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 0: 0.532784
+[INFO] Minibatch accuracy: 87.2%
+[INFO] Test accuracy: 80.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 100: 0.537515
+[INFO] Minibatch accuracy: 86.4%
+[INFO] Test accuracy: 78.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 200: 0.606906
+[INFO] Minibatch accuracy: 83.9%
+[INFO] Test accuracy: 79.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 300: 0.562312
+[INFO] Minibatch accuracy: 85.6%
+[INFO] Test accuracy: 80.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 400: 0.571073
+[INFO] Minibatch accuracy: 86.3%
+[INFO] Test accuracy: 79.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 500: 0.567627
+[INFO] Minibatch accuracy: 86.7%
+[INFO] Test accuracy: 79.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 600: 0.547229
+[INFO] Minibatch accuracy: 86.6%
+[INFO] Test accuracy: 78.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 700: 0.555676
+[INFO] Minibatch accuracy: 86.8%
+[INFO] Test accuracy: 79.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 800: 0.541142
+[INFO] Minibatch accuracy: 87.5%
+[INFO] Test accuracy: 78.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 900: 0.497514
+[INFO] Minibatch accuracy: 88.8%
+[INFO] Test accuracy: 78.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1000: 0.540022
+[INFO] Minibatch accuracy: 87.5%
+[INFO] Test accuracy: 79.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1100: 0.577861
+[INFO] Minibatch accuracy: 84.2%
+[INFO] Test accuracy: 79.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1200: 0.560430
+[INFO] Minibatch accuracy: 86.1%
+[INFO] Test accuracy: 80.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1300: 0.543934
+[INFO] Minibatch accuracy: 86.6%
+[INFO] Test accuracy: 80.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1400: 0.561212
+[INFO] Minibatch accuracy: 85.7%
+[INFO] Test accuracy: 79.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1500: 0.555757
+[INFO] Minibatch accuracy: 87.3%
+[INFO] Test accuracy: 78.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1600: 0.547323
+[INFO] Minibatch accuracy: 85.5%
+[INFO] Test accuracy: 79.8%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1700: 0.561768
+[INFO] Minibatch accuracy: 86.8%
+[INFO] Test accuracy: 80.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 8 iteration 1800: 0.541669
+[INFO] Minibatch accuracy: 88.0%
+[INFO] Test accuracy: 79.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 0: 0.537632
+[INFO] Minibatch accuracy: 88.2%
+[INFO] Test accuracy: 79.0%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 100: 0.512524
+[INFO] Minibatch accuracy: 87.3%
+[INFO] Test accuracy: 80.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 200: 0.552713
+[INFO] Minibatch accuracy: 87.0%
+[INFO] Test accuracy: 79.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 300: 0.539996
+[INFO] Minibatch accuracy: 86.1%
+[INFO] Test accuracy: 79.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 400: 0.522623
+[INFO] Minibatch accuracy: 87.6%
+[INFO] Test accuracy: 79.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 500: 0.562933
+[INFO] Minibatch accuracy: 85.4%
+[INFO] Test accuracy: 79.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 600: 0.516908
+[INFO] Minibatch accuracy: 87.5%
+[INFO] Test accuracy: 80.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 700: 0.517883
+[INFO] Minibatch accuracy: 88.9%
+[INFO] Test accuracy: 79.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 800: 0.517554
+[INFO] Minibatch accuracy: 87.5%
+[INFO] Test accuracy: 81.3%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 900: 0.562636
+[INFO] Minibatch accuracy: 85.2%
+[INFO] Test accuracy: 80.7%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1000: 0.532622
+[INFO] Minibatch accuracy: 87.1%
+[INFO] Test accuracy: 78.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1100: 0.536849
+[INFO] Minibatch accuracy: 88.0%
+[INFO] Test accuracy: 79.6%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1200: 0.488968
+[INFO] Minibatch accuracy: 89.9%
+[INFO] Test accuracy: 80.4%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1300: 0.523334
+[INFO] Minibatch accuracy: 87.6%
+[INFO] Test accuracy: 80.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1400: 0.518674
+[INFO] Minibatch accuracy: 86.3%
+[INFO] Test accuracy: 79.9%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1500: 0.522867
+[INFO] Minibatch accuracy: 85.9%
+[INFO] Test accuracy: 81.1%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1600: 0.539506
+[INFO] Minibatch accuracy: 86.6%
+[INFO] Test accuracy: 80.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1700: 0.555382
+[INFO] Minibatch accuracy: 85.5%
+[INFO] Test accuracy: 81.2%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] Minibatch loss at epoch 9 iteration 1800: 0.530338
+[INFO] Minibatch accuracy: 86.9%
+[INFO] Test accuracy: 79.5%
+[INFO] saving model to file...
+[INFO] Model saved in file: ../../../tensorflow_models/chinese_momentum.ckpt
+[INFO] total time used: 75511.014282
+Closing remaining open files:./trainData.hdf5...done./trainLabel.hdf5...done
